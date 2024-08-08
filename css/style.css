@@ -11,23 +11,41 @@ header{
 .container{
     margin: 20px;
     display: flex;
-
 }
 main{
     flex: 3;
     background: white;
     padding: 20px;
     margin-right: 20px;
+    border-radius: 20px;
 }
 aside{
     flex: 1;
     background: #ccc;
+    border-radius: 20px;
+    text-align: start;
+}
+aside h3{
+    margin-left: 10px;
+    text-align: start;
+}
+aside h2{
+    text-align: center;
+}
+aside p{
+    text-align: center;
+}
+.paragraph{
+    text-align: start;
+    margin-left: 10px;
+    list-style-type: none;
 }
 footer{
     color: white;
     background-color:#333;
-    padding: 10px 0px;
+    padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 .card{
     display: flex;
@@ -99,7 +117,8 @@ footer{
 button:hover{
     background-color: orangered;
     color: white;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+     
 }
 .card-port{
     display: flex;
@@ -142,4 +161,39 @@ button:hover{
     border-radius: 10px;
     object-fit: cover;
     width: 200px;
+}
+.header{
+    padding: 20px 5%;
+    background: #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.logo :hover{
+    color: yellow;
+    text-shadow: 0 0 25px white,
+                 0 0 50px white;
+    transform: scale(1,1);
+    transition: 0.2s;
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin:0 20px ;
+    transition: 0.3 ease;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:yellow;
+    border-bottom: 3px solid orangered;
+    transform: scale(1,1);
 }
