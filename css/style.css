@@ -121,23 +121,23 @@ footer{
 .aba:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
     background-color:rgb(241, 241, 84);
-    transition: translateY(-10px);
-
-    
-    /* padding: 28px; */
+    transform: translateY(-10px);
 }
 .tax:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
     background-color:rgb(241, 241, 84);
+    transform: translateY(-10px);
 }
 .payroll:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
     background-color:rgb(241, 241, 84);
+    transform: translateY(-10px);
 }
 button:hover{
     background-color: orangered;
     color: white;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
      
 }
 .card-port{
@@ -172,14 +172,17 @@ button:hover{
 .bakong:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
     background-color:rgb(241, 241, 84);
+    transform: translateY(-10px);
 }
 .taxa:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
     background-color:rgb(241, 241, 84);
+    transform: translateY(-10px);
 }
 .pay:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
     background-color:rgb(241, 241, 84);
+    transform: translateY(-10px);
 }
 .pay img{ 
     width: 200px;
