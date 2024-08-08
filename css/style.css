@@ -20,7 +20,7 @@ main{
     margin-right: 20px;
     border-radius: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-
+    margin-top: 75px;
 }
 aside{
     flex: 1;
@@ -28,6 +28,7 @@ aside{
     border-radius: 20px;
     text-align: start;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 75px;
 }
 aside h3{
     margin-left: 10px;
@@ -44,6 +45,7 @@ aside a{
     margin: 0 10px;
     list-style-type: none;
     text-decoration: none;
+    font-size: 15px;
 }
 aside a:hover{
     text-decoration: underline;
@@ -79,6 +81,7 @@ footer{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     width: 200px;
+    transition: 0.2s;
 }
 .tax{
     padding: 25px;
@@ -87,6 +90,7 @@ footer{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     width: 200px;
+    transition: 0.2s;
 }
 .payroll{
     padding: 25px;
@@ -95,6 +99,7 @@ footer{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     width: 200px;
+    transition: 0.2s;
 }
 .aba img{
     width: 100px;
@@ -115,15 +120,19 @@ footer{
 }
 .aba:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
+    background-color:rgb(241, 241, 84);
+    transition: translateY(-10px);
+
+    
     /* padding: 28px; */
 }
 .tax:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
-    /* padding: 28px; */
+    background-color:rgb(241, 241, 84);
 }
 .payroll:hover{
     box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
-    /* padding: 28px; */
+    background-color:rgb(241, 241, 84);
 }
 button:hover{
     background-color: orangered;
@@ -142,6 +151,7 @@ button:hover{
     border-radius: 10px;
     width: 200px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 .taxa{
     padding: 25px;
@@ -149,6 +159,7 @@ button:hover{
     border-radius: 10px;
     width: 200px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 .pay{
     padding: 25px;
@@ -156,6 +167,19 @@ button:hover{
     border-radius: 10px;
     width: 200px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.bakong:hover{
+    box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
+    background-color:rgb(241, 241, 84);
+}
+.taxa:hover{
+    box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
+    background-color:rgb(241, 241, 84);
+}
+.pay:hover{
+    box-shadow: 0 10px 10px rgba(238, 5, 5, 0.6);
+    background-color:rgb(241, 241, 84);
 }
 .pay img{ 
     width: 200px;
@@ -176,7 +200,10 @@ button:hover{
 .header{
     padding: 20px 5%;
     background: #333;
-    /* border-radius: 10px; */
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -202,9 +229,9 @@ button:hover{
     margin:0 20px ;
     transition: 0.3 ease;
     text-decoration: none;
+    font-size: 18px;
 }
 .navbar a:hover{
     color:yellow;
     border-bottom: 3px solid orangered;
-    transform: scale(1,1);
 }
